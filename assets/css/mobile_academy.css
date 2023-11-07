@@ -64,10 +64,73 @@
     width: 350px;
 }
 
+
+
+.mobile_academy_banner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.mobile_academy_banner img {
+  max-width: 100%;
+  height: auto;
+  padding-bottom: 3rem;
+}
+
+/* .mobile_academy_logo {
+width: 10rem;
+height: 10rem;
+border-radius: 50%;
+border: 1px solid red;
+overflow: hidden;
+flex-shrink:0;
+}
+
+.mobile_academy_logo img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+} */
+
+
+.mobile_academy_logo{
+  width: 130px;
+  height: 130px;
+  border-radius: 50%;
+  border: 1px solid #dcdcdc;
+  position: relative;
+  background-color: #ffffff;
+}
+
+.mobile_academy_logo img {
+  width: 70px;
+  height: auto;
+  position: absolute;
+  top: 45%;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin: auto;
+}
+
+.mobile_academy_wrapper{
+  position: absolute;
+  left:3%;
+  top:45%;
+}
+
+
+
 @media only screen and (max-width: 440px) {
 
     .mobile_academy_input{
         width: 300px;
+    }
+
+    .mobile_academy_wrapper{
+      top:35%;
     }
   }
 @media only screen and (max-width: 385px) {
