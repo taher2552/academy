@@ -8,13 +8,11 @@
 
 .academy_mobile_container {
   max-width: 550px;
-  border: 1px solid green;
   margin: 0 auto;
 }
 
 .mobile_academy_header {
   max-width: 550px;
-  border: 1px solid green;
   margin: 0 auto;
 }
 
@@ -246,7 +244,6 @@ flex-shrink:0;
   height: 100%;
   overflow: auto;
   margin-top: 1rem;
-  border: 1px solid orange;
 }
 
 .mob_academy_tab_list ul{
@@ -266,11 +263,11 @@ font-style: normal;
 font-weight: 500;
 margin-right: 1.5rem;
 padding-bottom: 0.1rem;
-
+cursor: pointer;
 }
 
 .mob_academy_tab_list ul li:last-child{
- padding-right: 2rem;
+ padding-right: 1rem;
 }
 
 .mob_academy_active_tab{
