@@ -246,6 +246,7 @@ flex-shrink:0;
   height: 100%;
   overflow: auto;
   margin-top: 1rem;
+  border: 1px solid orange;
 }
 
 .mob_academy_tab_list ul{
@@ -266,6 +267,10 @@ font-weight: 500;
 margin-right: 1.5rem;
 padding-bottom: 0.1rem;
 
+}
+
+.mob_academy_tab_list ul li:last-child{
+ padding-right: 2rem;
 }
 
 .mob_academy_active_tab{
