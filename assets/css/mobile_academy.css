@@ -54,3 +54,25 @@
 .mobile_academy_custom_search::placeholder {
   font-size: 0.8rem;
 }
+
+.mobile_academy_custom_search:focus{
+    box-shadow: none;
+}
+
+
+.mobile_academy_input{
+    width: 350px;
+}
+
+@media only screen and (max-width: 440px) {
+
+    .mobile_academy_input{
+        width: 300px;
+    }
+  }
+@media only screen and (max-width: 385px) {
+
+    .mobile_academy_input{
+        width: 100%;
+    }
+  }
