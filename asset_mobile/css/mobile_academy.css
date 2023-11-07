@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,200;9..40,300;9..40,400&family=Montserrat&display=swap");
+
 * {
   margin: 0;
   padding: 0;
@@ -5,6 +7,12 @@
 }
 
 .academy_mobile_container {
+  max-width: 550px;
+  border: 1px solid green;
+  margin: 0 auto;
+}
+
+.mobile_academy_header {
   max-width: 550px;
   border: 1px solid green;
   margin: 0 auto;
@@ -55,16 +63,13 @@
   font-size: 0.8rem;
 }
 
-.mobile_academy_custom_search:focus{
-    box-shadow: none;
+.mobile_academy_custom_search:focus {
+  box-shadow: none;
 }
 
-
-.mobile_academy_input{
-    width: 350px;
+.mobile_academy_input {
+  width: 350px;
 }
-
-
 
 .mobile_academy_banner {
   display: flex;
@@ -77,6 +82,7 @@
   max-width: 100%;
   height: auto;
   padding-bottom: 3rem;
+  z-index: -1000;
 }
 
 /* .mobile_academy_logo {
@@ -94,8 +100,7 @@ flex-shrink:0;
   object-fit: cover;
 } */
 
-
-.mobile_academy_logo{
+.mobile_academy_logo {
   width: 130px;
   height: 130px;
   border-radius: 50%;
@@ -113,29 +118,75 @@ flex-shrink:0;
   bottom: 0;
   left: 0;
   margin: auto;
+  z-index: 1000;
 }
 
-.mobile_academy_wrapper{
+.mobile_academy_wrapper {
   position: absolute;
-  left:3%;
-  top:45%;
+  left: 3%;
+  top: 45%;
+}
+
+.academy_arrow_white {
+  padding: 0.3rem;
+  border-radius: 50%;
+  background-color: #fff;
+  height: 30px;
+  width: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  right: 1%;
+  z-index: -1000;
+  top:30%;
+}
+.academy_arrow_white_1 {
+  padding: 0.3rem;
+  border-radius: 50%;
+  background-color: #fff;
+  height: 30px;
+  width: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  left: 1%;
+  z-index: -1000;
+  top:30%;
+}
+
+.academy_arrow_white_1 img{
+     position: absolute;
+     top:38%;
+
+}
+.academy_arrow_white img{
+     position: absolute;
+     top:32%;
+
 }
 
 
 
 @media only screen and (max-width: 440px) {
-
-    .mobile_academy_input{
-        width: 300px;
-    }
-
-    .mobile_academy_wrapper{
-      top:35%;
-    }
+  .mobile_academy_input {
+    width: 300px;
   }
+
+
+
+  .mobile_academy_logo {
+    width: 100px;
+    height: 100px;
+  }
+  
+  .mobile_academy_logo img {
+    width: 40px;
+  }
+}
 @media only screen and (max-width: 385px) {
-
-    .mobile_academy_input{
-        width: 100%;
-    }
+  .mobile_academy_input {
+    width: 100%;
   }
+}
