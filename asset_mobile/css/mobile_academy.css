@@ -934,6 +934,15 @@ line-height: normal;
 
 .mob_academy_blogs{
   margin-top: 2rem;
+  margin-bottom: 0rem;
+}
+
+.mob_academy_blog_para, .mob_academy_date{
+  margin-bottom: 0rem;
+}
+
+.mob_academy_coach{
+  margin-bottom: -1rem;
 }
 
 
