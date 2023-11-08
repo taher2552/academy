@@ -825,42 +825,95 @@ flex-shrink:0;
   font-weight: 600;
 }
 
-.mob_academy_min{
-color:#505050;
-font-family: DM Sans;
-font-size: 0.75rem;
-font-style: normal;
-font-weight: 500;
-line-height: normal;
-letter-spacing: -0.02563rem;
+.mob_academy_min {
+  color: #505050;
+  font-family: DM Sans;
+  font-size: 0.75rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: -0.02563rem;
 }
 
-.mob_academy_small_star{
+.mob_academy_small_star {
   margin-top: -1rem;
   display: flex;
   justify-content: start;
   align-items: center;
-
 }
 
-.mob_academy_small_star span{
-  color:#505050;
-font-family: DM Sans;
-font-size: 0.875rem;
-font-weight: 500;
-}
-
-.mob_academy_review_para{
+.mob_academy_small_star span {
   color: #505050;
+  font-family: DM Sans;
+  font-size: 0.875rem;
+  font-weight: 500;
+}
+
+.mob_academy_review_para {
+  color: #505050;
+  font-family: DM Sans;
+  font-size: 0.875rem;
+  font-style: normal;
+  font-weight: 500;
+  text-align: justify;
+}
+
+.mob_academy_hide_reply {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  margin-top: -1rem;
+}
+
+.mob_academy_img_hide {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+
+.mob_academy_reply , .mob_academy_reply_2 {
+  margin-top: 1rem;
+  color: #222;
+  font-family: DM Sans;
+  font-size: 0.75rem;
+  font-style: normal;
+  font-weight: 500;
+  margin-left: 0.5rem;
+}
+
+.mob_academy_reply_2{
+ margin-left: 2rem;
+}
+
+.mob_academy_reply_box{
+  border-left: 1px solid #dcdcdc;
+  padding-left: 1rem;
+}
+
+.mob_academy_reply_wrapper{
+  padding-bottom: 1rem;
+  border-bottom: 1px solid #dcdcdc;
+  margin-left: -1rem;
+  margin-right: -1rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.mob_academy_all_review{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 1rem;
+}
+
+.mob_academy_all_txt{
+  color: #17479E;
 font-family: DM Sans;
 font-size: 0.875rem;
 font-style: normal;
-font-weight: 500;
-text-align: justify;
-margin-bottom: 1rem;
+font-weight: 600;
+line-height: normal;
 }
-
-
 
 
 
