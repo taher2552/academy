@@ -73,7 +73,7 @@
     text-align: center;
     padding: 0.5rem 1rem;
     width: 100%;
-    margin-bottom: 6.3rem;
+    margin-bottom:3.4rem;
   }
   
   .mobile_home_copyright {
@@ -127,41 +127,37 @@
     bottom: 0;
     max-width: 550px;
     width: 100%;
+    height: 70px;
   }
   
   .mobile_home_display {
+    font-family: DM Sans;
+    font-size: 0.875rem;
     display: flex;
-    flex-direction: column;
     justify-content: center;
     align-items: center;
-    font-family: DM Sans;
-    font-size: 0.875rem;
-    font-style: normal;
-    font-weight: 500;
-    line-height: normal;
-    text-transform: capitalize;
-    padding: 1rem;
-  }
-  
-  .mobile_home_display_txt {
+    flex-direction: column;
+    font-weight: 600;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-top: 0.2rem;
     color: #222;
     font-family: DM Sans;
-    font-size: 0.875rem;
-    font-style: normal;
-    font-weight: 600;
-    text-transform: capitalize;
   }
+  
+
   
   .home_fix_active {
     border-radius: 0rem 0rem 1.875rem 1.875rem;
     background-color: #fe5c4d50;
-    padding: 1rem;
-    height: max-content;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     color: #fe5c4d !important;
     font-weight: 600;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-top: 0.2rem;
   }
   
