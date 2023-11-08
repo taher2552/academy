@@ -736,8 +736,6 @@ flex-shrink:0;
   text-align: center;
 }
 
-
-
 .mob_academy_table_color {
   color: #505050 !important;
   font-family: DM Sans;
@@ -753,6 +751,118 @@ flex-shrink:0;
 }
 
 /* table css ends  */
+
+.mob_social {
+  margin-top: 1rem;
+}
+
+.mob_media {
+  margin-bottom: 0.5rem;
+}
+
+.mob_media img {
+  margin-right: 1rem;
+  cursor: pointer;
+}
+
+.mob_academy_blog_wrapper {
+  border-radius: 0.625rem;
+  background: #fff;
+  padding-bottom: 1rem;
+  margin-bottom: 1rem;
+}
+
+.mob_academy_review {
+  border-radius: 0.625rem;
+  background: var(--White, #fff);
+  padding: 1rem;
+  margin-bottom: 1rem;
+}
+
+.mob_academy_rating_top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.mob_acacdemy_review_heading {
+  color: #222;
+  font-family: DM Sans;
+  font-size: 1.25rem;
+  font-weight: 600;
+}
+
+.mob_academy_rate_btn {
+  border-radius: 0.3125rem;
+  background: #17479e;
+  padding: 0.2rem 0.5rem;
+  color: #fff;
+  outline: none;
+  border: none;
+  cursor: pointer;
+}
+
+.mob_academy_review_name {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 1rem;
+}
+
+.mob_academy_review_person {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  margin-top: -1rem;
+}
+
+.mob_academy_person_name {
+  margin-top: 1rem;
+  margin-left: 0.3rem;
+  color: #222;
+  font-family: DM Sans;
+  font-size: 0.875rem;
+  font-weight: 600;
+}
+
+.mob_academy_min{
+color:#505050;
+font-family: DM Sans;
+font-size: 0.75rem;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+letter-spacing: -0.02563rem;
+}
+
+.mob_academy_small_star{
+  margin-top: -1rem;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+
+}
+
+.mob_academy_small_star span{
+  color:#505050;
+font-family: DM Sans;
+font-size: 0.875rem;
+font-weight: 500;
+}
+
+.mob_academy_review_para{
+  color: #505050;
+font-family: DM Sans;
+font-size: 0.875rem;
+font-style: normal;
+font-weight: 500;
+text-align: justify;
+margin-bottom: 1rem;
+}
+
+
+
+
 
 @media only screen and (max-width: 440px) {
   .mobile_academy_input {
