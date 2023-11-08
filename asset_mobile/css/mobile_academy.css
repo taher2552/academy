@@ -644,7 +644,115 @@ flex-shrink:0;
   text-transform: capitalize;
 }
 
+.mob_academy_pic {
+  border-radius: 0.625rem;
+  border: 1px solid #dcdcdc;
+  background: var(--White, #fff);
+  margin-bottom: 1rem;
+  width: 100%;
+}
 
+.mob_card_pic {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
+.mob_card_pic img {
+  max-width: 100%;
+  height: auto;
+  padding-bottom: 1rem;
+}
+
+/* Table CSS Start */
+
+.mobile_academy_table {
+  background-color: #ffffff;
+  border-radius: 5px;
+  padding: 15px 0 0;
+  border: 1px solid #dcdcdc;
+  margin-top: 15px;
+}
+
+.mobile_academy_table_heading {
+  padding: 0 15px;
+}
+
+.mobile_academy_table .mobile_academy_table_heading h3 {
+  font-size: 15px;
+  font-weight: 600;
+  color: #222222;
+  text-transform: capitalize;
+}
+
+.mobile_academy_school_table thead th {
+  font-size: 14px;
+  color: #222222;
+}
+
+.mobile_academy_school_table tbody tr,
+.mobile_academy_school_table tbody tr th {
+  font-size: 13px;
+  color: #505050;
+  font-weight: 500;
+}
+
+.mobile_academy_school_table th,
+.mobile_academy_school_table td {
+  border-right: 1px solid #dcdcdc;
+}
+
+.mobile_academy_school_table tr:last-child {
+  border-right: none;
+}
+
+.mobile_academy_school_table table thead tr {
+  border-top: 1px solid #dcdcdc;
+  border-left: none;
+  border-right: none;
+}
+
+.mobile_academy_school_table thead tr,
+.mobile_academy_school_table tbody tr {
+  border-bottom: 1px solid #dcdcdc;
+}
+
+.mobile_academy_school_table tbody tr:last-child {
+  border-bottom: none;
+}
+
+.mobile_academy_school_table table {
+  margin: 0;
+}
+
+.mobile_academy_school_table tbody tr td,
+.mobile_academy_school_table thead tr {
+  text-transform: capitalize;
+}
+
+.mobile_academy_school_table .mobile_academy_position_middle {
+  text-align: center;
+}
+
+
+
+.mob_academy_table_color {
+  color: #505050 !important;
+  font-family: DM Sans;
+  font-size: 0.875rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  text-transform: capitalize;
+}
+
+.mob_table_border {
+  border-right: 1px solid transparent !important;
+}
+
+/* table css ends  */
 
 @media only screen and (max-width: 440px) {
   .mobile_academy_input {
