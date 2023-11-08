@@ -31,9 +31,11 @@
 
 .mobile_academy_search_field .mobile_academy_search_btn {
   border-radius: 0 5px 5px 0;
-  padding: 10px 15px;
   background-color: #fe5c4d;
   border: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .mobile_academy_search_btn img {
