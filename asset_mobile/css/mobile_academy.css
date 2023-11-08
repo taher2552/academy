@@ -6,6 +6,13 @@
   box-sizing: border-box;
 }
 
+:root {
+  --mobile_academy_star_size: 35px;
+  --mobile_academy_small_star: 18px;
+  --mobile_academy_star_color: #dcdcdc;
+  --mobile_academy_star_background: #fc0;
+}
+
 .academy_mobile_container {
   max-width: 550px;
   margin: 0 auto;
@@ -121,7 +128,7 @@ flex-shrink:0;
 
 .mobile_academy_wrapper {
   position: absolute;
-  left: 3%;
+  left: 8%;
   top: 45%;
 }
 
@@ -235,7 +242,8 @@ flex-shrink:0;
   margin-left: 1rem;
 }
 
-.mob_share, .mob_heart{
+.mob_share,
+.mob_heart {
   margin-left: 1.2rem;
 }
 
@@ -246,38 +254,394 @@ flex-shrink:0;
   margin-top: 1rem;
 }
 
-.mob_academy_tab_list ul{
-    display: flex;
-    list-style: none;
-    padding-left: 1rem;
-    padding-right: 1rem;
-    flex-wrap: nowrap;
-    text-wrap: nowrap;
+.mob_academy_tab_list ul {
+  display: flex;
+  list-style: none;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  flex-wrap: nowrap;
+  text-wrap: nowrap;
 }
 
-.mob_academy_tab_list ul li{
-  color:#222;
-font-family: DM Sans;
-font-size: 0.875rem;
-font-style: normal;
-font-weight: 500;
-margin-right: 1.5rem;
-padding-bottom: 0.1rem;
-cursor: pointer;
-}
-
-.mob_academy_tab_list ul li:last-child{
- padding-right: 1rem;
-}
-
-.mob_academy_active_tab{
+.mob_academy_tab_list ul li {
+  color: #222;
+  font-family: DM Sans;
+  font-size: 0.875rem;
+  font-style: normal;
+  font-weight: 500;
+  margin-right: 1.5rem;
   padding-bottom: 0.1rem;
-  border-bottom: 1px solid #fe5c4d;;
-  color:#fe5c4d !important;
+  cursor: pointer;
+}
+
+.mob_academy_tab_list ul li:last-child {
+  padding-right: 1rem;
+}
+
+.mob_academy_active_tab {
+  padding-bottom: 0.1rem;
+  border-bottom: 1px solid #fe5c4d;
+  color: #fe5c4d !important;
 }
 
 .mob_academy_tab_list::-webkit-scrollbar {
   height: 0rem;
+}
+
+.mob_academy_box_wrapper {
+  background: #f0f2f5;
+  padding: 1rem;
+}
+
+.mob_academy_box {
+  background-color: #fff;
+  border-radius: 0.625rem;
+  border: 1px solid #dcdcdc;
+  margin-bottom: 1rem;
+}
+
+.mob_academy_fee_heading {
+  color: #222;
+  font-family: DM Sans;
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+.mob_academy_fee_box {
+  padding: 1rem;
+  padding-bottom: 0;
+  border-bottom: 1px solid #dcdcdc;
+  margin-bottom: 0.5rem;
+}
+
+.mob_academy_fee_list ul {
+  list-style: none;
+  padding-left: 1rem;
+}
+
+.mob_academy_fee_list ul li img {
+  margin-right: 1rem;
+}
+
+.mob_academy_fee_list ul li {
+  margin-bottom: 1rem;
+  color: #505050;
+  font-family: DM Sans;
+  font-size: 0.875rem;
+  font-weight: 500;
+}
+
+.mob_age_box_yrs {
+  color: #505050;
+  font-family: DM Sans;
+  font-size: 0.875rem;
+  font-weight: 500;
+}
+
+.mob_academy_age_list {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  padding: 1rem;
+  padding-top: 0.5rem;
+}
+
+.mob_age_box {
+  border-radius: 1.875rem;
+  background: #e9efff;
+  padding: 0.2rem 0.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 1rem;
+  text-wrap: nowrap;
+}
+
+.mob_age_box p {
+  margin-bottom: 0;
+}
+
+.mob_academy_fee_status {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.hour_mob {
+  color: #fe5c4d;
+  font-family: DM Sans;
+  font-size: 1rem;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.hour_mob span {
+  color: #aaa;
+  font-family: DM Sans;
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+.mob_academy_class {
+  color: #8c959f;
+  font-family: DM Sans;
+  font-size: 1rem;
+  font-weight: 500;
+  margin-left: 1rem;
+}
+
+.mob_call_msg {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.mob_message_btn {
+  margin-left: 1rem;
+  margin-right: 1rem;
+  border-radius: 0.3125rem;
+  background: #fe5c4d;
+  padding: 0.3rem 0.6rem;
+  border: 1px solid #fe5c4d;
+  outline: none;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.mob_call_btn {
+  border-radius: 0.3125rem;
+  border: 1px solid #e3e3e3;
+  background-color: #fff;
+  padding: 0.3rem 0.6rem;
+  outline: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.mob_call_btn img,
+.mob_message_btn img {
+  margin-right: 0.3rem;
+}
+
+.mobile_academy_review {
+  background-color: #ffffff;
+  padding: 10px 5px;
+  margin-top: 15px;
+  border-radius: 5px;
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+  border: 1px solid #dcdcdc;
+}
+
+.mobile_academy_review_call {
+  border: 1px solid transparent;
+  border-radius: 5px;
+  color: #505050;
+  display: flex;
+  font-size: 12px;
+  font-weight: 600;
+  align-items: center;
+  padding: 3px 7px;
+}
+
+.mobile_academy_progress {
+  background-color: rgba(100, 100, 100, 0.2);
+  border-radius: 5px;
+  position: relative;
+  margin: 0 10px;
+  height: 10px;
+  width: 170px;
+}
+
+.mobile_academy_progress_done {
+  background: #ffc634;
+  border-radius: 5px;
+  height: 10px;
+  width: 0;
+  transition: width 1s ease 0.3s;
+}
+
+.mobile_academy_percent {
+  color: #333;
+}
+
+.mobile_academy_stars {
+  --mobile_academy_percent: calc(var(--star_rating) / 5 * 100%);
+  display: inline-block;
+  font-size: var(--mobile_academy_star_size);
+  font-family: Times;
+  line-height: 1;
+}
+
+.mobile_academy_stars_small {
+  --mobile_academy_percent: calc(var(--star_rating) / 5 * 100%);
+  display: inline-block;
+  font-size: var(--mobile_academy_small_star);
+  font-family: Times;
+  line-height: 1;
+}
+
+.mobile_academy_stars::before,
+.mobile_academy_stars_small::before {
+  content: "★★★★★";
+  letter-spacing: 3px;
+  background: linear-gradient(
+    90deg,
+    var(--mobile_academy_star_background) var(--mobile_academy_percent),
+    var(--mobile_academy_star_color) var(--mobile_academy_percent)
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.star-mobile_academy_review_calls {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
+}
+
+.star-mobile_academy_review_calls span {
+  font-size: 25px;
+  font-weight: 700;
+  color: #222222;
+}
+
+.star-mobile_academy_review_calls p {
+  font-size: 14px;
+  font-weight: 600;
+  color: #505050;
+  text-transform: capitalize;
+  margin-top: 0.5rem;
+}
+
+.mob_academy_training {
+  border-radius: 0.625rem;
+  border: 1px solid #dcdcdc;
+  background: #fff;
+  padding: 1rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.mob_academy_location {
+  color: #222;
+  font-family: DM Sans;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 600;
+}
+
+.mob_academy_green_location {
+  display: flex;
+  justify-content: start;
+  align-items: start;
+}
+
+.mob_academy_way {
+  color: #505050;
+  font-family: DM Sans;
+  font-size: 0.875rem;
+  font-style: normal;
+  font-weight: 500;
+  margin-left: 0.3rem;
+  margin-top: -4px;
+  margin-bottom: -0.5rem;
+}
+
+.mob_academy_verify {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: -1rem;
+}
+
+.mob_academy_verified {
+  margin-top: 1rem;
+  margin-right: 0.3rem;
+  color: #222;
+  font-family: DM Sans;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 600;
+}
+
+.mob_academy_grey_tick {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  margin-top: -1rem;
+  padding-left: 1rem;
+}
+
+.mob_academy_grey_email {
+  color: #505050;
+  font-family: DM Sans;
+  font-size: 0.875rem;
+  font-style: normal;
+  font-weight: 500;
+  margin-top: 1rem;
+  margin-left: 0.3rem;
+}
+
+.mob_call_brochure {
+  color: #222;
+  font-family: DM Sans;
+  font-size: 0.75rem;
+  font-weight: 500;
+  text-transform: capitalize;
+}
+
+.mob_our_owner {
+  padding: 1rem;
+  border-radius: 0.625rem;
+  border: 1px solid #dcdcdc;
+  background: #fff;
+}
+
+.mob_overview_para {
+  padding: 1rem;
+  text-align: justify;
+}
+
+.mob_overview_msg {
+  color: #505050;
+  font-family: DM Sans;
+  font-size: 0.875rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.25rem;
+}
+
+.mob_academy_manage {
+  color: #fe5c4d;
+  font-family: DM Sans;
+  font-size: 1rem;
+  font-weight: 700;
+  text-transform: capitalize;
+}
+
+.mob_academy_language {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  flex-wrap: wrap;
+}
+
+.mob_language_list {
+  margin-right: 1rem;
+  color: #505050;
+  font-family: DM Sans;
+  font-weight: 500;
+  line-height: normal;
+  text-transform: capitalize;
 }
 
 
@@ -294,11 +658,97 @@ cursor: pointer;
 
   .mobile_academy_logo img {
     width: 40px;
-    top:50%;
+    top: 50%;
+  }
+}
+
+@media only screen and (max-width: 420px) {
+  .mobile_academy_progress {
+    width: 150px;
+  }
+
+  :root {
+    --mobile_academy_star_size: 30px;
   }
 }
 @media only screen and (max-width: 385px) {
   .mobile_academy_input {
     width: 100%;
+  }
+
+  .mob_age_box {
+    margin-right: 0.3rem;
+    padding: 0.2rem 0.5rem;
+  }
+
+  .mob_age_box p {
+    font-size: 0.75rem !important;
+  }
+
+  .mobile_academy_progress {
+    width: 130px;
+  }
+
+  :root {
+    --mobile_academy_star_size: 25px;
+  }
+
+  .mob_academy_verified {
+    font-size: 0.875rem;
+  }
+
+  .mob_message_btn,
+  .mob_call_btn {
+    font-size: 0.875rem;
+  }
+
+  .mob_message_btn {
+    margin-right: 0.5rem;
+  }
+}
+
+@media only screen and (max-width: 365px) {
+  .mob_academy_verified {
+    font-size: 0.75rem;
+  }
+
+  .mob_message_btn,
+  .mob_call_btn {
+    font-size: 0.75rem;
+  }
+}
+
+@media only screen and (max-width: 335px) {
+  .mobile_academy_progress {
+    width: 120px;
+  }
+
+  :root {
+    --mobile_academy_star_size: 22px;
+  }
+
+  .mob_academy_verified {
+    font-size: 0.7rem;
+  }
+
+  .mob_message_btn,
+  .mob_call_btn {
+    font-size: 0.7rem;
+    padding-left: 0.3rem;
+    padding-right: 0.3rem;
+  }
+}
+
+@media only screen and (max-width: 320px) {
+  .mob_age_box {
+    padding: 0.2rem 0.3rem;
+  }
+
+  .mobile_academy_progress {
+    width: 100px;
+  }
+
+  :root {
+    --mobile_academy_star_size: 20px;
   }
 }
